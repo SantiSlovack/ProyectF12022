@@ -602,6 +602,19 @@ header a{
 }
 
 
+@media (min-width:375px){
+    
+    .parentTickets {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 2fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        padding-left: 27px;
+        justify-items: start;
+    }
+}
+
 @media (min-width:425px){
     
     .parentTickets {
