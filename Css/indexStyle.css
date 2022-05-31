@@ -79,25 +79,6 @@ header a{
     padding: 50px 10px;
 }
 
-.img-ContainerIndex p {
-    display: inline-block;
-    color: #000;
-    background: #fff;
-    mix-blend-mode: multiply;
-    position: relative;
-}
-
-.img-ContainerIndex p {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to right, rgb(255, 8, 8), yellow);
-    mix-blend-mode: screen;
-    top: 0;
-    left: 0;
-}
-
 .Noticia-Gp-ArgIndex{
     background-color: #15151e;
 }
@@ -107,7 +88,9 @@ header a{
 }
 
 .Noticia-Gp-ArgIndex p{
-    color: white;
+    background: -webkit-linear-gradient(#ffffff, #e24343);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .Container2Index{
@@ -185,11 +168,12 @@ header a{
     opacity: 1;
 }
 
-.footer .copyright {
+.footer .copyrightIndex {
     margin-top: 15px;
     text-align: center;
     font-size: 13px;
     color: #aaa;
+    
 }
 
 @media (min-width:768px){
@@ -209,8 +193,8 @@ header a{
     }
 .LogoIndex{
     width: 230px;
-    height: 60px;
-    margin: 10px;}
+    height: 45px;
+    }
 
 
 .Container2Index{
@@ -297,13 +281,14 @@ header a{
 /* Tienda css*/
 
 .EncabezadoTienda{
-    background-color: rgb(255, 0, 0);
+    background-color: red;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .MenuTienda{
+    display: flex;
     text-align: center;
 }
 
@@ -330,103 +315,32 @@ header a{
     margin: 5px;
 }
 
-.PorEquipoTienda{
+.listaEquiposTiendaTienda{
     display: flex;
-    flex-wrap: wrap;
-    align-items:center;
+    flex-wrap:wrap;
+    flex-direction: column;
+    padding-right: 40px;    
 }
 
-.FotoMerTienda{
-    width: 20px;
-    height: 20px;
+.FotoTienda{
+    width: 33px;
+    height: 33px;
     padding: 2px;
-}
-
-.fotoRBTienda{
-    width: 20px;
-    height: 20px;
-}
-
-.FotoFerTienda{
-    width: 20px;
-    height: 20px;
-}
-
-.FotoMCTienda{
-    width: 20px;
-    height: 20px;
-}
-
-.FotoAlfaTienda{
-    width: 20px;
-    height: 20px;
-}
-
-.FotoAstonTienda{
-    width: 20px;
-    height: 20px;
-}
-
-.FotoAlpTienda{
-    width: 20px;
-    height: 20px;
-}
-
-.FotoATTienda{
-    width: 20px;
-    height: 20px;
-}
-
-.FotoWillTienda{
-    width: 20px;
-    height: 20px;
-}
-
-.FotoF1Tienda{
-    width: 20px;
-    height: 20px;
 }
 
 .Tienda {
     display: grid;
-    grid-template-columns: repeat(2, 5cm);
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-row-gap: 15px;
     align-items: center;
     justify-items: center;
     justify-content: space-around;
     background-image: url("https://i.ibb.co/jkQv7Cr/gray3-x2.png");
 }
 
-.fotoLewisTienda{
-    width:4cm;
-    height:4cm;
-}
-
-.fotoRedBTienda{
-    width:4cm;
-    height:4cm;
-}
-
-.fotoFerrariTienda{
-    width:4cm;
-    height:4cm;
-}
-
-.fotoMCLTienda{
-    width:4cm;
-    height:4cm;
-}
-
-.fotoAlphineTienda{
-    width:4cm;
-    height:4cm;
-}
-
-.fotoAlfaRomeoTienda{
-    width:4cm;
-    height:4cm;
+.FotosTienda{
+    height:8cm;
 }
 
 .footerTienda {
@@ -512,129 +426,47 @@ header a{
         flex-direction: row;
     }
 
-    .listaEquiposTienda{
+    .ContainerTienda{
+        display: flex;
+        flex-wrap: wrap;
+        border: 10px;
+        padding: 10px 10px;
+        align-content: center;
+        justify-content: space-around;
+        align-items: center;
+        background-color:azure
+    }
+
+    .listaEquiposTiendaTienda{
         display: grid;
         grid-template-columns: repeat(10, 1fr);
         grid-template-rows: 0.1fr;
-        grid-column-gap: 50px;
+        grid-column-gap: 30px;
         grid-row-gap: 0px;
         padding-right: 55px;
     }
 
-    .FotoMerTienda{
-        width: 25px;
-        height: 25px;
-    }
-    
-    .fotoRBTienda{
-        width: 25px;
-        height: 25px;
-    }
-    
-    .FotoFerTienda{
-        width: 25px;
-        height: 25px;
-    }
-    
-    .FotoMCTienda{
-        width: 25px;
-        height: 25px;
-    }
-    
-    .FotoAlfaTienda{
-        width: 25px;
-        height: 25px;
-    }
-    
-    .FotoAstonTienda{
-        width: 25px;
-        height: 25px;
-    }
-    
-    .FotoAlpTienda{
-        width: 25px;
-        height: 25px;
-    }
-    
-    .FotoATTienda{
-        width: 25px;
-        height: 25px;
-    }
-    
-    .FotoWillTienda{
-        width: 25px;
-        height: 25px;
-    }
-    
-    .FotoF1Tienda{
-        width: 25px;
-        height: 25px;
+    .FotoTienda{
+        width: 40px;
+        height: 40px;
     }
 
-    .fotoLewisTienda{
+    .FotosTienda{
         width:9cm;
         height:9cm;
     }
-    
-    .fotoRedBTienda{
-        width:9cm;
-        height:9cm;
-    }
-    
-    .fotoFerrariTienda{
-        width:9cm;
-        height:9cm;
-    }
-    
-    .fotoMCLTienda{
-        width:9cm;
-        height:9cm;
-    }
-    
-    .fotoAlphineTienda{
-        width:9cm;
-        height:9cm;
-    }
-    
-    .fotoAlfaRomeoTienda{
-        width:9cm;
-        height:9cm;
-    }
-
-}
-
-@media (min-width: 1440px){
-    .fotoLewisTienda{
-        width:15cm;
-        height:15cm;
-    }
-    
-    .fotoRedBTienda{
-        width:15cm;
-        height:15cm;
-    }
-    
-    .fotoFerrariTienda{
-        width:15cm;
-        height:15cm;
-    }
-    
-    .fotoMCLTienda{
-        width:15cm;
-        height:15cm;
-    }
-    
-    .fotoAlphineTienda{
-        width:15cm;
-        height:15cm;
-    }
-    
-    .fotoAlfaRomeoTienda{
-        width:15cm;
-        height:15cm;
+    .Tienda{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 15px;
+        align-items: center;
+        justify-items: center;
+        justify-content: space-around;
+        background-image: url("https://i.ibb.co/jkQv7Cr/gray3-x2.png");
     }
 }
-
 
 
 
@@ -656,11 +488,18 @@ header a{
 }
 
 .MenuTickets{
+    display: flex;
     text-align: center;   
 }
 
 .tituloTickets{
     font-size: 20px;
+    text-align: center; 
+    color: rgb(8, 8, 8);  
+}
+
+.TituloTickets{
+    font-size: 30px;
     text-align: center; 
     color: rgb(8, 8, 8);  
 }
@@ -685,79 +524,20 @@ header a{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 2fr);
     grid-column-gap: 0px;
-    grid-row-gap: 0px;   
+    grid-row-gap: 0px;  
+    text-decoration: none; 
 }
 
-.FotoSpainTickets{
+.FotoTickets{
     margin: 0.5cm;
     width: 280px ;
     height: 190px ;
 }
 
-.TitSpainTickets{
+.TitTickets{
     color:rgb(0, 0, 0);
     text-align: center;
     font-size: large;
-}
-
-.FotoMonTickets{
-    margin: 0.5cm;
-    width: 280px ;
-    height: 190px ;
-}
-
-.TitMonTickets{
-    color:rgb(0, 0, 0);
-    text-align: center;
-    font-size: large;  
-}
-
-.FotoBakuTickets{
-    margin: 0.5cm;
-    width: 280px ;
-    height: 190px ;
-}
-
-.TitBakuTickets{
-    color:rgb(0, 0, 0);
-    text-align: center;
-    font-size: large;
-}
-
-.FotoCanTickets{
-    margin: 0.5cm;
-    width: 280px ;
-    height: 190px ;
-}
-
-.TitCanTickets{
-    color:rgb(0, 0, 0);
-    text-align: center;
-    font-size: large;  
-}
-
-.FotoIngTickets{
-    margin: 0.5cm;
-    width: 280px ;
-    height: 190px ;
-}
-
-.TitIngTickets{
-    color:rgb(0, 0, 0);
-    text-align: center;
-    font-size: large;
-}
-
-.FotoHolTickets{
-    margin: 0.5cm;
-    width: 280px ;
-    height: 190px ;
-}
-
-.TitHolTickets{
-    color:rgb(0, 0, 0);
-    text-align: center;
-    font-size: large;   
 }
 
 .footerTickets {
@@ -830,8 +610,8 @@ header a{
         grid-template-rows: repeat(6, 2fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
-        justify-items: end;
         padding-left: 50px;
+        justify-items: start;
     }
 }
 
@@ -851,10 +631,6 @@ header a{
         display: inline-block;
     }
 
-    .ContainerTickets h1{
-        padding-left: 70px;
-    }
-
     .parentTickets {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -862,8 +638,6 @@ header a{
         grid-column-gap: 8px;
         grid-row-gap: 7px;
         }
-
-
 }
 
 @media (min-width:1024px){
@@ -880,10 +654,6 @@ header a{
         justify-content: space-between;
         text-align: center;
         display: inline-block;
-    }
-
-    .ContainerTickets h1{
-        padding-left: 185px;
     }
 
     .parentTickets {
@@ -911,19 +681,17 @@ header a{
         display: inline-block;
     }
 
-    .ContainerTickets h1{
-        padding-left: 390px;
-    }
-
     .parentTickets {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 0.3fr);
         grid-column-gap: 8px;
         grid-row-gap: 7px;
-        padding-left: 5.5cm;
+        padding-left: 2.5cm;
     }
 }
+
+
 
 
 
@@ -1137,67 +905,23 @@ header a{
     grid-row-gap: 0px;
     justify-items: center;
     align-content: center;
-    align-items: center;    
-}
+    align-items: center;  
+    padding: 5px 1px;
+}    
 
-.EsportsGaming h4{
+.GamingGaming h4{
     text-align: center;
     font-size: x-large;
     color: rgb(0, 0, 0);
 }
 
-.EsportsGaming p{
+.GamingGaming p{
     text-align: justify;
 }
 
-.FantasyGaming h4{
-    text-align: center;
-    font-size: x-large;
-    color: rgb(0, 0, 0);
-}
-
-.FantasyGaming p{
-    text-align: justify;
-}
-
-.F122Gaming h4{
-    text-align: center;
-    font-size: x-large;
-    color: rgb(0, 0, 0);
-}
-
-.F122Gaming p{
-    text-align: justify;
-}
-
-.DFantasyGaming h4{
-    text-align: center;
-    font-size: x-large;
-    color: rgb(0, 0, 0);
-}
-
-.DFantasyGaming p{
-    text-align: justify;
-}
-
-.F1Man2022Gaming h4{
-    text-align: center;
-    font-size: x-large;
-    color: rgb(0, 0, 0);
-}
-
-.F1Man2022Gaming p{
-    text-align: justify;
-}
-
-.F1MobileGaming h4{
-    text-align: center;
-    font-size: x-large;
-    color: rgb(0, 0, 0);
-}
-
-.F1MobileGaming p{
-    text-align: justify;
+.FotoGaming{
+    width: 320px;
+    height: 200px;
 }
 
 .footerGaming {
@@ -1307,6 +1031,11 @@ header a{
         padding-left: 10px;
     }
 
+    .FotoGaming{
+        width: 360px;
+        height: 225px;
+    }
+
     .GamingGaming p{
         text-align: center;
     }
@@ -1365,6 +1094,10 @@ header a{
 
     .GamingGaming p{
         text-align: center;
+    }
+    .FotoGaming{
+        width: 500px;
+        height: 280px;
     }
 
     .EsportsGaming{
