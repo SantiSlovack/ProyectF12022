@@ -1,0 +1,24 @@
+{
+  "name": "codigo-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-sass":"node-sass --include-path scss sass/index.scss css/translated.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiSlovack/ProyectF12022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SantiSlovack/ProyectF12022/issues"
+  },
+  "homepage": "https://github.com/SantiSlovack/ProyectF12022#readme",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
