@@ -1,13 +1,10 @@
-/*nesting*/
-.TituloNoticias {
-  text-align: right; }
-  .TituloNoticias__h1 {
-    color: black;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: center; }
+* {
+  box-sizing: border-box; }
 
-/*import minuto 1.50*/
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0; }
+
 h1 {
   font-size: 3.5em;
   color: black; }
@@ -25,46 +22,983 @@ p {
 ul {
   list-style: none; }
 
+.containerIndex {
+  max-width: 1442px;
+  margin: auto; }
+
+.EncabezadoIndex {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.LogoIndex {
+  width: 180px;
+  height: 50px;
+  margin: 5px; }
+
+.MenuIndex {
+  display: flex;
+  text-align: center; }
+
+header a {
+  padding: 5px 5px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  height: 65px; }
+
+.HeroIndex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 125vh;
+  background-image: url("https://cdn-1.motorsport.com/images/mgl/0mbGpWM2/s8/2022-f1-car-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+button {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 2px solid #cd0000;
+  background-color: red;
+  color: white; }
+
+.img-ContainerIndex {
+  text-align: center;
+  padding: 50px 10px; }
+
+.Noticia-Gp-ArgIndex {
+  background-color: #b7b7d1; }
+
+.Noticia-Gp-ArgIndex h2 {
+  color: WHITE; }
+
+.Noticia-Gp-ArgIndex p {
+  background: -webkit-linear-gradient(#ffffff, #e24343);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.Container2Index {
+  text-align: center;
+  align-items: center;
+  padding: 50px 0px;
+  background-image: url("https://i.ibb.co/jkQv7Cr/gray3-x2.png"); }
+
+.cartaIndex {
+  padding: 50px 10px;
+  display: flex; }
+
+.GamingIndex {
+  padding: 50px 10px;
+  align-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
 .footer {
   padding: 40px 0;
   background-color: #ffffff; }
-  .footer__social {
+
+.footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+  color: #4b4c4d; }
+
+.footer .social a {
+  font-size: 24px;
+  color: inherit;
+  border: 1px solid #ccc;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75; }
+
+.footer .social a:hover {
+  opacity: 0.9; }
+
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0; }
+
+.footer ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8; }
+
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px; }
+
+.footer ul a:hover {
+  opacity: 1; }
+
+.footer .copyrightIndex {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa; }
+
+@media (min-width: 768px) {
+  .EncabezadoIndex {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+  .MenuIndex {
+    flex-direction: row;
+    justify-content: space-between;
     text-align: center;
-    padding-bottom: 25px;
-    color: #4b4c4d; }
-  .footer__social a {
-    font-size: 24px;
-    color: inherit;
-    border: 1px solid #ccc;
-    width: 40px;
-    height: 40px;
-    line-height: 38px;
-    display: inline-block;
+    display: inline-block; }
+  .LogoIndex {
+    width: 230px;
+    height: 45px; }
+  .Container2Index {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    border-radius: 50%;
-    margin: 0 8px;
-    opacity: 0.75; }
-  .footer__social a:hover {
-    opacity: 0.9; }
-  .footer__ul {
-    margin-top: 0;
-    padding: 0;
-    list-style: none;
+    align-items: center;
+    padding: 50px 0px;
+    background-image: url("https://i.ibb.co/jkQv7Cr/gray3-x2.png"); } }
+
+@media (min-width: 1024px) {
+  .EncabezadoIndex {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+  .MenuIndex {
+    flex-direction: row;
+    justify-content: space-between;
     text-align: center;
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 0; }
-  .footer__ul a {
-    color: inherit;
+    display: inline-block; }
+  .heroIndex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 10vh;
+    background-image: url("https://cdn-1.motorsport.com/images/mgl/0mbGpWM2/s8/2022-f1-car-1.jpg");
+    background-repeat: no-repeat; }
+  .headerIndex a {
+    padding: 5px 5px;
     text-decoration: none;
-    opacity: 0.8; }
-  .footer__ul li {
-    display: inline-block;
-    padding: 0 15px; }
-  .footer__ul a:hover {
-    opacity: 1; }
-  .footer__copyrightIndex {
-    margin-top: 15px;
+    color: white;
     text-align: center;
-    font-size: 13px;
-    color: #aaa; }
+    height: 80px; } }
+
+@media (min-width: 1440px) {
+  .EncabezadoIndex {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+  .MenuIndex {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    display: inline-block; }
+  .heroIndex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 10vh;
+    background-image: url("https://cdn-1.motorsport.com/images/mgl/0mbGpWM2/s8/2022-f1-car-1.jpg");
+    background-repeat: no-repeat; }
+  .Container2 {
+    display: flex;
+    padding: auto; } }
+
+/* Tienda css*/
+.EncabezadoTienda {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.MenuTienda {
+  display: flex;
+  text-align: center; }
+
+.ContainerTienda {
+  display: flex;
+  border: 10px;
+  padding: 10px 10px;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  background-color: azure; }
+
+.BuscadorTienda {
+  background-color: black;
+  align-items: center;
+  display: flex;
+  flex-direction: column; }
+
+.LogoTienda {
+  width: 180px;
+  height: 50px;
+  margin: 5px; }
+
+.listaEquiposTiendaTienda {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-right: 40px; }
+
+.FotoTienda {
+  width: 33px;
+  height: 33px;
+  padding: 2px; }
+
+.Tienda {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 15px;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-around;
+  background-image: url("https://i.ibb.co/jkQv7Cr/gray3-x2.png"); }
+
+.FotosTienda {
+  height: 8cm; }
+
+.footerTienda {
+  padding: 40px 0;
+  background-color: #ffffff; }
+
+.footerTienda .social {
+  text-align: center;
+  padding-bottom: 25px;
+  color: #4b4c4d; }
+
+.footerTienda .social a {
+  font-size: 24px;
+  color: inherit;
+  border: 1px solid #ccc;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75; }
+
+.footerTienda .social a:hover {
+  opacity: 0.9; }
+
+.footerTienda ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0; }
+
+.footerTienda ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8; }
+
+.footerTienda ul li {
+  display: inline-block;
+  padding: 0 15px; }
+
+.footerTienda ul a:hover {
+  opacity: 1; }
+
+.footerTienda .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa; }
+
+@media (min-width: 768px) {
+  .EncabezadoTienda {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+  .MenuTienda {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    display: inline-block; }
+  .BuscadorTienda {
+    background-color: black;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row; }
+  .ContainerTienda {
+    display: flex;
+    flex-wrap: wrap;
+    border: 10px;
+    padding: 10px 10px;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: azure; }
+  .listaEquiposTiendaTienda {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 0.1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+    padding-right: 55px; }
+  .FotoTienda {
+    width: 40px;
+    height: 40px; }
+  .FotosTienda {
+    width: 9cm;
+    height: 9cm; }
+  .Tienda {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 15px;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    background-image: url("https://i.ibb.co/jkQv7Cr/gray3-x2.png"); } }
+
+/*Tickets Css*/
+.EncabezadoTickets {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.LogoTickets {
+  width: 180px;
+  height: 50px;
+  margin: 5px; }
+
+.MenuTickets {
+  display: flex;
+  text-align: center; }
+
+.tituloTickets {
+  font-size: 20px;
+  text-align: center;
+  color: #080808; }
+
+.TituloTickets {
+  font-size: 30px;
+  text-align: center;
+  color: #080808; }
+
+.BarraSeparatoriaTickets {
+  background-color: black;
+  border-radius: 5px;
+  border: 10px; }
+
+.ContainerTicketsTickets {
+  display: flex;
+  flex-wrap: wrap; }
+
+.TituloTickets {
+  text-align: center; }
+
+.parentTickets {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 2fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  text-decoration: none; }
+
+.FotoTickets {
+  margin: 0.5cm;
+  width: 280px;
+  height: 190px; }
+
+.TitTickets {
+  color: black;
+  text-align: center;
+  font-size: large; }
+
+.footerTickets {
+  padding: 40px 0;
+  background-color: #ffffff; }
+
+.footerTickets .social {
+  text-align: center;
+  padding-bottom: 25px;
+  color: #4b4c4d; }
+
+.footerTickets .social a {
+  font-size: 24px;
+  color: inherit;
+  border: 1px solid #ccc;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75; }
+
+.footerTickets .social a:hover {
+  opacity: 0.9; }
+
+.footerTickets ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0; }
+
+.footerTickets ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8; }
+
+.footerTickets ul li {
+  display: inline-block;
+  padding: 0 15px; }
+
+.footerTickets ul a:hover {
+  opacity: 1; }
+
+.footerTickets .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa; }
+
+@media (min-width: 375px) {
+  .parentTickets {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 2fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding-left: 27px;
+    justify-items: start; } }
+
+@media (min-width: 425px) {
+  .parentTickets {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 2fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding-left: 50px;
+    justify-items: start; } }
+
+@media (min-width: 768px) {
+  .EncabezadoTickets {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+  .MenuTickets {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    display: inline-block; }
+  .parentTickets {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 8px;
+    grid-row-gap: 7px; } }
+
+@media (min-width: 1024px) {
+  .EncabezadoTickets {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+  .MenuTickets {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    display: inline-block; }
+  .parentTickets {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 0.3fr);
+    grid-column-gap: 8px;
+    grid-row-gap: 7px; } }
+
+@media (min-width: 1440px) {
+  .EncabezadoTickets {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+  .MenuTickets {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    display: inline-block; }
+  .parentTickets {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 0.3fr);
+    grid-column-gap: 8px;
+    grid-row-gap: 7px;
+    padding-left: 2.5cm; } }
+
+/*Noticias Css*/
+.EncabezadoNoticias {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.LogoNoticias {
+  width: 180px;
+  height: 50px;
+  margin: 5px; }
+
+.MenuNoticias {
+  display: flex;
+  text-align: center; }
+
+header a {
+  padding: 5px 5px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  height: 65px; }
+
+.ContainerArgNoticias {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: center; }
+
+.TituloArgNoticias h1 {
+  color: black;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center; }
+
+.BordeArgNoticias {
+  border-top: solid 10px #e10600;
+  border-right: solid 10px #e10600;
+  border-top-right-radius: 15px;
+  border-left: none;
+  border-bottom: none;
+  padding-left: none;
+  border-top-left-radius: none; }
+
+.NoticiaArgNoticias {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  align-content: flex-start;
+  justify-content: space-around;
+  align-items: flex-start; }
+
+.FotoArgNoticias {
+  width: 7.5cm;
+  height: 5cm; }
+
+.BordeBoxNoticias {
+  border-top: solid 10px #e10600;
+  border-left: solid 10px #e10600;
+  border-top-left-radius: 15px;
+  border-right: none;
+  border-bottom: none;
+  padding-right: none;
+  border-top-right-radius: none; }
+
+.TituloNoticias {
+  text-align: right; }
+
+.footerNoticias {
+  padding: 40px 0;
+  background-color: #ffffff; }
+
+.footerNoticias .social {
+  text-align: center;
+  padding-bottom: 25px;
+  color: #4b4c4d; }
+
+.footerNoticias .social a {
+  font-size: 24px;
+  color: inherit;
+  border: 1px solid #ccc;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75; }
+
+.footerNoticias .social a:hover {
+  opacity: 0.9; }
+
+.footerNoticias ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0; }
+
+.footerNoticias ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8; }
+
+.footerNoticias ul li {
+  display: inline-block;
+  padding: 0 15px; }
+
+.footerNoticias ul a:hover {
+  opacity: 1; }
+
+.footerNoticias .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa; }
+
+@media (min-width: 768px) {
+  .EncabezadoNoticias {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+  .MenuNoticias {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    display: inline-block; }
+  .NoticiaArgNoticias {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: flex-start;
+    justify-content: space-around;
+    align-items: flex-start; } }
+
+/*Gaming Css*/
+.EncabezadoGaming {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.LogoGaming {
+  width: 180px;
+  height: 50px;
+  margin: 5px; }
+
+.MenuGaming {
+  display: flex;
+  text-align: center; }
+
+header a {
+  padding: 5px 5px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  height: 65px; }
+
+.GamingGaming {
+  display: grid;
+  grid-template-columns: 0.5fr;
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  padding: 5px 1px; }
+
+.GamingGaming h4 {
+  text-align: center;
+  font-size: x-large;
+  color: black; }
+
+.GamingGaming p {
+  text-align: justify; }
+
+.FotoGaming {
+  width: 320px;
+  height: 200px; }
+
+.footerGaming {
+  padding: 40px 0;
+  background-color: #ffffff; }
+
+.footerGaming .social {
+  text-align: center;
+  padding-bottom: 25px;
+  color: #4b4c4d; }
+
+.footerGaming .social a {
+  font-size: 24px;
+  color: inherit;
+  border: 1px solid #ccc;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75; }
+
+.footerGaming .social a:hover {
+  opacity: 0.9; }
+
+.footerGaming ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0; }
+
+.footerGaming ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8; }
+
+.footerGaming ul li {
+  display: inline-block;
+  padding: 0 15px; }
+
+.footerGaming ul a:hover {
+  opacity: 1; }
+
+.footerGaming .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa; }
+
+@media (min-width: 375px) {
+  .GamingGaming {
+    padding-left: 25px; } }
+
+@media (min-width: 425px) {
+  .GamingGaming {
+    padding-left: 50px; } }
+
+@media (min-width: 768px) {
+  .EncabezadoGaming {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+  .MenuGaming {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    display: inline-block; }
+  .LogoGaming {
+    width: 230px;
+    height: 50px;
+    margin: 2px; }
+  .GamingGaming {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 3px;
+    padding-left: 10px; }
+  .FotoGaming {
+    width: 360px;
+    height: 200px; }
+  .GamingGaming p {
+    text-align: center; }
+  .FantasyGaming {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-bottom: 22px; }
+  .DFantasyGaming {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-bottom: 70px; }
+  .F1MobileGaming {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-bottom: 70px; } }
+
+@media (min-width: 1024px) {
+  .EncabezadoGaming {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+  .MenuGaming {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    display: inline-block; }
+  .LogoGaming {
+    width: 230px;
+    height: 50px;
+    margin: 2px; }
+  .GamingGaming {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 3px;
+    padding-left: 10px; }
+  .GamingGaming p {
+    text-align: center; }
+  .FotoGaming {
+    width: 500px;
+    height: 280px; }
+  .EsportsGaming {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; }
+  .F122Gaming {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-bottom: 50px; }
+  .F1Man2022Gaming {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-bottom: 50px; } }
+
+/*Contacto*/
+.EncabezadoContacto {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.LogoContacto {
+  width: 180px;
+  height: 50px;
+  margin: 5px; }
+
+.MenuContacto {
+  display: flex;
+  text-align: center; }
+
+header a {
+  padding: 5px 5px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  height: 65px; }
+
+.my-4Contacto {
+  text-align: center; }
+
+.footerContacto {
+  padding: 40px 0;
+  background-color: #ffffff; }
+
+.footerContacto .social {
+  text-align: center;
+  padding-bottom: 25px;
+  color: #4b4c4d; }
+
+.footerContacto .social a {
+  font-size: 24px;
+  color: inherit;
+  border: 1px solid #ccc;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75; }
+
+.footerContacto .social a:hover {
+  opacity: 0.9; }
+
+.footerContacto ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0; }
+
+.footerContacto ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8; }
+
+.footerContacto ul li {
+  display: inline-block;
+  padding: 0 15px; }
+
+.footerContacto ul a:hover {
+  opacity: 1; }
+
+.footerContacto .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa; }
+
+@media (min-width: 768px) {
+  .EncabezadoContacto {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+  .MenuContacto {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    display: inline-block; }
+  .m-autoContacto {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start; } }
