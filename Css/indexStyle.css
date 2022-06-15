@@ -7,7 +7,7 @@ body {
 
 h1 {
   font-size: 3.5em;
-  color: black; }
+  color: rgb(0, 0, 0); }
 
 h2 {
   font-size: 2.7em;
@@ -74,12 +74,14 @@ button {
 
 .Noticia-Gp-ArgIndex {
   background-color: #ffffff; }
+  
   .Noticia-Gp-ArgIndex__h2 {
-    color: WHITE; }
+    color: rgb(162, 58, 58); }
+
   .Noticia-Gp-ArgIndex__p {
-    background: -webkit-linear-gradient(#ffffff, #e24343);
+    background: -webkit-linear-gradient(#ffffff, #885959);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
+    -webkit-text-fill-color: transparent;}
 
 .Container2Index {
   text-align: center;

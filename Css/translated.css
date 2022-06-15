@@ -1,4 +1,4 @@
-* {
+/** {
   box-sizing: border-box; }
 
 body {
@@ -226,9 +226,9 @@ button {
     background-repeat: no-repeat; }
   .Container2 {
     display: flex;
-    padding: auto; } }
+    padding: auto; } }*/
 
-/* Tienda css*/
+/* Tienda css
 .EncabezadoTienda {
   background-color: red;
   display: flex;
@@ -385,7 +385,7 @@ button {
     justify-content: space-around;
     background-image: url("https://i.ibb.co/jkQv7Cr/gray3-x2.png"); } }
 
-/*Tickets Css*/
+/*Tickets Css
 .EncabezadoTickets {
   background-color: red;
   display: flex;
@@ -571,7 +571,7 @@ button {
     grid-row-gap: 7px;
     padding-left: 2.5cm; } }
 
-/*Noticias Css*/
+/*Noticias Css
 .EncabezadoNoticias {
   background-color: red;
   display: flex;
@@ -713,7 +713,7 @@ header a {
     justify-content: space-around;
     align-items: flex-start; } }
 
-/*Gaming Css*/
+/*Gaming Css
 .EncabezadoGaming {
   background-color: red;
   display: flex;
@@ -906,7 +906,7 @@ header a {
     align-items: stretch;
     padding-bottom: 50px; } }
 
-/*Contacto*/
+/*Contacto
 .EncabezadoContacto {
   background-color: red;
   display: flex;
