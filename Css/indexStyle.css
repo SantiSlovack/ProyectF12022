@@ -1,5 +1,8 @@
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: "f1-black";
+  src: url("https://www.formula1.com/etc/designs/fom-website/fonts/F1Black/Formula1-Black.woff2") format("woff2");
+ }
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -283,6 +286,8 @@ button {
 .FotosTienda {
   height: 8cm; }
 
+
+
 /*mapa*/
 __img--FotosTienda {
   border: 50px solid #ff0088; }
@@ -395,6 +400,8 @@ __img--FotoTiendas {
     justify-content: space-around;
     background-image: url("https://i.ibb.co/jkQv7Cr/gray3-x2.png"); } }
 
+
+    
 /*Tickets Css*/
 .EncabezadoTickets {
   background-color: red;
@@ -426,9 +433,13 @@ __img--FotoTiendas {
   border-radius: 5px;
   border: 10px; }
 
-.ContainerTicketsTickets {
+.ContainerTickets {
   display: flex;
-  flex-wrap: wrap; }
+  flex-direction: column;
+  flex-wrap: wrap; 
+  margin: 5px;
+  align-items: stretch;
+}
 
 .TituloTickets {
   text-align: center; }
@@ -441,9 +452,46 @@ __img--FotoTiendas {
   grid-row-gap: 0px;
   text-decoration: none; }
 
+  .Spain{
+   border: solid;
+   border-image-slice: 1;
+   border-width: 5px;
+   border-image-source:linear-gradient(60deg,#ff0000,#dad600);
+  }
+  .MonacoTickets{
+    border: solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source:linear-gradient(60deg,#d3d3d3,rgb(255, 0, 0));
+  }
+  .BakuTickets{
+    border: solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source:linear-gradient(60deg,#18a5f0,#ff0000,#227c1c);
+  }
+  .CanadaTickets{
+    border: solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source:linear-gradient(60deg,#ff0000,#ffffff,rgb(255, 8, 0));
+  }
+  .InglandTickets{
+    border: solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source:linear-gradient(60deg,#ffffff,#ff0000,rgb(255, 255, 255));
+  }
+  .HolandaTickets{
+    border: solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source:linear-gradient(60deg,#ff0000,#ffffff,rgb(53, 1, 173));
+  }
+
 .FotoTickets {
   margin: 0.5cm;
-  width: 280px;
+  width: 260px;
   height: 190px; }
 
 .TitTickets {
@@ -511,7 +559,19 @@ __img--FotoTiendas {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     padding-left: 27px;
-    justify-items: start; } }
+    justify-items: start; } 
+  
+    .TituloTickets{
+      font-size: 30px;
+      text-align: center;
+      color: #080808;
+    }
+
+    .tituloTickets{
+      font-size: 20px;
+      text-align: center;
+      color: #080808;
+    }}
 
 @media (min-width: 425px) {
   .parentTickets {
@@ -629,6 +689,14 @@ header a {
   border-bottom: none;
   padding-left: none;
   border-top-left-radius: none; }
+  
+  .BordeArgNoticias p{
+    margin: 5px;
+  }
+  
+  .NewsNoticias{
+    margin: 5px;
+  }
 
 .NoticiaArgNoticias {
   display: flex;
@@ -640,7 +708,10 @@ header a {
 
 .FotoArgNoticias {
   width: 7.5cm;
-  height: 5cm; }
+  height: 5cm;
+  margin: 5px;  
+  
+}
 
 .BordeBoxNoticias {
   border-top: solid 10px #e10600;
@@ -653,6 +724,16 @@ header a {
 
 .TituloNoticias {
   text-align: right; }
+
+  .New1TitNticias{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+
+  
 
 .footerNoticias {
   padding: 40px 0;
