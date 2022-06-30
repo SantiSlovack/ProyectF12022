@@ -1,16 +1,15 @@
 * {
   box-sizing: border-box;
-  font-family: "f1-black";
-  src: url("https://www.formula1.com/etc/designs/fom-website/fonts/F1Black/Formula1-Black.woff2") format("woff2");
- }
-
-body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0; }
+  font-family: 'Prompt', sans-serif;
+  list-style: none;
+  
+}  
 
 h1 {
   font-size: 3.5em;
   color: rgb(0, 0, 0); }
+
+
 
 h2 {
   font-size: 2.7em;
@@ -23,7 +22,8 @@ p {
   font-size: 1.2em; }
 
 ul {
-  list-style: none; }
+  list-style: none;
+  text-decoration: none; }
 
 .containerIndex {
   max-width: 1442px;
@@ -403,7 +403,9 @@ __img--FotoTiendas {
 
     
 /*Tickets Css*/
+
 .EncabezadoTickets {
+ 
   background-color: red;
   display: flex;
   flex-direction: column;
@@ -419,6 +421,7 @@ __img--FotoTiendas {
   text-align: center; }
 
 .tituloTickets {
+  margin: 10px;
   font-size: 20px;
   text-align: center;
   color: #080808; }
@@ -437,7 +440,7 @@ __img--FotoTiendas {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap; 
-  margin: 5px;
+  
   align-items: stretch;
 }
 
@@ -839,19 +842,22 @@ header a {
   justify-items: center;
   align-content: center;
   align-items: center;
-  padding: 5px 1px; }
+  padding: 5px 1.5px; }
 
 .GamingGaming h4 {
   text-align: center;
   font-size: x-large;
-  color: black; }
+  color: black; 
+}
 
 .GamingGaming p {
-  text-align: justify; }
+  text-align: justify; 
+}
 
 .FotoGaming {
   width: 320px;
-  height: 200px; }
+  height: 200px; 
+}
 
 .footerGaming {
   padding: 40px 0;
@@ -944,17 +950,17 @@ header a {
   .FantasyGaming {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
     padding-bottom: 22px; }
   .DFantasyGaming {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
     padding-bottom: 70px; }
   .F1MobileGaming {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
     padding-bottom: 70px; } }
 
 @media (min-width: 1024px) {
@@ -979,7 +985,8 @@ header a {
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 2px;
     grid-row-gap: 3px;
-    padding-left: 10px; }
+    padding-left: 10px; 
+  }
   .GamingGaming p {
     text-align: center; }
   .FotoGaming {
@@ -988,43 +995,49 @@ header a {
   .EsportsGaming {
     display: flex;
     flex-direction: column;
-    align-items: stretch; }
+    align-items: center; }
   .F122Gaming {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
     padding-bottom: 50px; }
   .F1Man2022Gaming {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
-    padding-bottom: 50px; } }
+    align-items: center;
+    padding-bottom: 50px; 
+  } 
+}
 
 /*Contacto*/
 .EncabezadoContacto {
   background-color: red;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center; 
+}
 
 .LogoContacto {
   width: 180px;
   height: 50px;
-  margin: 5px; }
+  margin: 5px; 
+}
 
 .MenuContacto {
   display: flex;
-  text-align: center; }
+  text-align: center; 
+}
 
 header a {
   padding: 5px 5px;
   text-decoration: none;
   color: white;
   text-align: center;
-  height: 65px; }
+  height: 65px; 
+}
 
-.containerContacto{
-  margin: 5px;
+.containerContacto .m-autoContacto{
+  margin: 25px;
 }
 
 .my-4Contacto {
